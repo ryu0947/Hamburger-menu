@@ -57,7 +57,6 @@ body {
     margin-left: auto;
     width: 45px;
     height: 35px;
-    transition: transform 0.5s, opacity 0.5s;
 }
 
 .hamburger span {
@@ -66,6 +65,7 @@ body {
     background: #ffffff;
     width: inherit;
     height: 5px;
+    transition: transform 0.5s, opacity 0.5s;
 }
 
 .top-line {
@@ -81,8 +81,7 @@ body {
 }
 
 .top-line.active {
-    transform: translateY(20px);
-    transform: rotate(45deg);
+    transform: translateY(15px) rotate(45deg);
 }
 
 .center-line.active {
@@ -90,6 +89,5 @@ body {
 }
 
 .bottom-line.active {
-    transform: translateY(-20px);
-    transform: rotate(-45deg);
+    transform: translateY(-15px) rotate(-45deg);
 }
