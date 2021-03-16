@@ -11,6 +11,15 @@ ul,li {
     list-style: none;
 }
 
+button {
+    background: none;
+    border: none;
+    appearance: none;
+    outline: none;
+    padding: 0;
+    cursor: pointer;
+  }
+
 body {
     color: #ffffff;
 }
