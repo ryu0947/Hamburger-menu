@@ -53,29 +53,28 @@ body {
 }
 
 .hamburger {
-    display: block;
+    position: relative;
+    margin-left: auto;
+    width: 45px;
+    height: 35px;
+}
+
+.hamburger span {
     position: absolute;
-    left: 90%;
-    border-radius: 5px;
+    left: 0;
     background: #ffffff;
-    width: 50px;
-    height: 50px;
+    width: inherit;
+    height: 5px;
 }
 
 .top-line {
-    bottom: 20px;
-    width: inherit;
-    height: 10px;
+    top: 0px;
 }
 
 .center-line {
-    bottom: 0px;
-    width: inherit;
-    height: 10px;
+    top: 15px;
 }
 
 .bottom-line {
-    top: 20px;
-    width: inherit;
-    height: 10px;
+    bottom: 0px;
 }
