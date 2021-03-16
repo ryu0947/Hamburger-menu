@@ -44,6 +44,10 @@ body {
     opacity: 0;
 }
 
+.nav.show {
+    transform: translateX(0%);
+}
+
 .list {
     display: flex;
     flex-direction: column;
@@ -57,6 +61,7 @@ body {
     margin-left: auto;
     width: 45px;
     height: 35px;
+    z-index: 1;
 }
 
 .hamburger span {
